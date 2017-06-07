@@ -2,9 +2,44 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/photon.css">
+
     <title>EASELINIUM</title>
   </head>
   <body>
+    <header class="toolbar toolbar-header">
+      <h1 class="title">Header with actions</h1>
+
+      <div class="toolbar-actions">
+        <div class="btn-group">
+          <button class="btn btn-default">
+            <span class="icon icon-home"></span>
+          </button>
+          <button class="btn btn-default">
+            <span class="icon icon-folder"></span>
+          </button>
+          <button class="btn btn-default active">
+            <span class="icon icon-cloud"></span>
+          </button>
+          <button class="btn btn-default">
+            <span class="icon icon-popup"></span>
+          </button>
+          <button class="btn btn-default">
+            <span class="icon icon-shuffle"></span>
+          </button>
+        </div>
+
+        <button class="btn btn-default">
+          <span class="icon icon-home icon-text"></span>
+          Filters
+        </button>
+
+        <button class="btn btn-default btn-dropdown pull-right">
+          <span class="icon icon-megaphone"></span>
+        </button>
+      </div>
+    </header>
+
     <h1>EASELINIUM</h1>
     We are using node <script>document.write(process.versions.node)</script>,
     Chrome <script>document.write(process.versions.chrome)</script>,
@@ -16,5 +51,16 @@
       Some Testers are not so familiarized with some automating test tools and use an interface for this task can improve their process.
     </p>
     <p><span><i><b>easelinium:</b> Is here to make things easear!</i></span></p>
+    <footer class="toolbar toolbar-footer">
+      <div class="toolbar-actions">
+        <button class="btn btn-default">
+          Cancel
+        </button>
+
+        <button class="btn btn-primary pull-right">
+          Save
+        </button>
+      </div>
+    </footer>
   </body>
 </html>
